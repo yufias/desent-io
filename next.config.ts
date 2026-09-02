@@ -7,6 +7,10 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: path.dirname(fileURLToPath(import.meta.url)),
   },
+  images: {
+    // Product photography is served from the Monis CMS.
+    remotePatterns: [{ protocol: "https", hostname: "strapi.monis.rent", pathname: "/uploads/**" }],
+  },
 };
 
 export default nextConfig;
