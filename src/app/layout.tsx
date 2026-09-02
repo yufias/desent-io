@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "desent-io",
-  description: "Next.js + Tailwind CSS starter",
+  title: "Design Your Workspace · Monis",
+  description: "Build your dream workspace piece by piece, see it come to life, and rent the whole setup by the week in Bali.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
